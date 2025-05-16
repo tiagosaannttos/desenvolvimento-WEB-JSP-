@@ -1,0 +1,176 @@
+/* Estilos gerais do body sem fundo com imagem */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7fb; /* Cor de fundo clara e limpa */
+    color: #333;
+}
+
+/* Container geral para CRUD */
+.crud-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 350px;
+}
+
+/* Container para formulários */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+/* Container para tabelas ou listas */
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+/* Título das páginas e seções */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Parágrafos */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Links que funcionam como botões */
+a.btn {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+/* Hover e active para os botões */
+a.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+}
+
+a.btn:active {
+    background-color: #004085;
+    transform: translateY(1px);
+}
+
+/* Botão de sair com cor vermelha */
+a.btn:last-child {
+    background-color: #dc3545;
+}
+
+a.btn:last-child:hover {
+    background-color: #c82333;
+}
+
+a.btn:last-child:active {
+    background-color: #bd2130;
+}
+
+/* Botão voltar com estilo parecido */
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: #0056b3;
+}
+
+/* Botão de deletar (vermelho e destacado) */
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.btn-delete:active {
+    background-color: #bd2130;
+}
+
+/* Inputs básicos */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Botão submit padrão */
+input[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Classes de mensagem */
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.login-container {
+
+}
